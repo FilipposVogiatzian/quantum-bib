@@ -41,14 +41,14 @@ Congrats, you can now properly compile your .tex files as usual:
   ~/mypaper $ git add quantum-bib/bibtex/bib/quantum.bib
   ~/mypaper $ git commit -m 'added references'
   ```
-6. submit a [pull request](https://help.github.com/articles/using-pull-requests/) 
+6. submit a [pull request](https://help.github.com/articles/using-pull-requests/)
 
 ####Configure a remote for your fork
 Follow [these instructions](https://help.github.com/articles/configuring-a-remote-for-a-fork/)
 ```
 $ git remote add upstream https://github.com/cschaffner/quantum-bib.git
 ```
-You can now [sync](https://help.github.com/articles/syncing-a-fork/) other people's changes with your fork. 
+You can now [sync](https://help.github.com/articles/syncing-a-fork/) other people's changes with your fork.
 
 
 ##Repository contents:
@@ -64,6 +64,8 @@ two bib-styles by Marco Tomamichel which nicely display DOI and arxiv links:
 ##Formatting conventions
 * The *citation-key* ("GM84" in the first example below) is the same as in the alpha style, so first letters of up to four authors, together with two digits of the publication year. In [JabRef](http://jabref.sourceforge.net/), this corresponds to the `[authorsAlpha][shortyear]` setting.
 * Full names of authors with proper latex spelling including special characters should be provided
+* Special characters should be written in brackets, for example:  {\'e} instead of \'e.
+
 
 See [here](https://en.wikipedia.org/wiki/BibTeX#Entry_types) for a list of possible bibtex entries.
 
